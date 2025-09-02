@@ -1,7 +1,10 @@
-
 <script setup lang="ts">
-  import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+  // @ is an alias to /src
+  import HelloWorld from '@/components/HelloWorld.vue' 
+  import SideBar from '@/components/SideBar/SideBarView.vue' 
 </script>
+
+<!-- //////////////////////////////////////////////////////////////////////// -->
 
 <template>
   <div class="home">
@@ -9,6 +12,8 @@
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
   </div>
 </template>
+
+<!-- //////////////////////////////////////////////////////////////////////// -->
 
 <style lang="css">
 </style>

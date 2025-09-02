@@ -28,3 +28,11 @@ nav {
   }
 }
 </style>
+
+<!-- Installed CLI Plugins
+    babel -- Transpilled js to older browsers 
+    pwa -- Progressive Web App
+    router -- self explanatory
+    unit-jest -- unit testing
+    e2e-nightwatch -- end-to-end testing
+ -->

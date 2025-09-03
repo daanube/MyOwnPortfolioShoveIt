@@ -1,7 +1,6 @@
 <script setup lang="ts">
   // @ is an alias to /src
   import HelloWorld from '@/components/HelloWorld.vue' 
-  import SideBar from '@/components/SideBar/SideBarView.vue' 
 </script>
 
 <!-- //////////////////////////////////////////////////////////////////////// -->

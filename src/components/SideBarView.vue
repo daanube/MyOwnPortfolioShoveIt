@@ -1,17 +1,13 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <!-- //////////////////////////////////////////////////////////////////////// -->
 
 <template>
-    <VRow>
-        <VCol>
-            <h6>Hola, soy welcome</h6>
-        </VCol>
-    </VRow>
-    
-
+    <Vrow>
+        <Vcol>
+            <h6>Hola, soy un sidebar</h6>
+        </Vcol>
+    </Vrow>
 </template>
 
 <!-- //////////////////////////////////////////////////////////////////////// -->

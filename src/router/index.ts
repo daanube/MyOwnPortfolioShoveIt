@@ -1,41 +1,46 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import WelcomeView from '../views/Welcome/WelcomeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    component: () => import("../layouts/SideBarLayout.vue"),
-    children: [
-      {
-        path: "inicio",
-        component: () => import("../views/Welcome/WelcomeView.vue"),
-      },
-      {
-        path: "deliverydemo",
-        component: () => import("../views/Projects/DeliveryDemoView.vue"),
-      },
-      {
-        path: "healthcaredemo",
-        component: () => import("../views/Projects/HealthCareDemoView.vue"),
-      },
-      {
-        path: "retaildemo",
-        component: () => import("../views/Projects/RetailDemoView.vue"),
-      },
-      {
-        path: "lotterydemo",
-        component: () => import("../views/Projects/LotteryDemoView.vue"),
-      },
-      {
-        path: "musictaste",
-        component: () => import("../views/Hobbies/MusicView.vue"),
-      },
-      {
-        path: "illustratorlife",
-        component: () => import("../views/Hobbies/IllustrationView.vue"),
-      }
-    ]
+    component: () => import("../views/Welcome/WelcomeView.vue"),
   },
+  // {
+  //   path: "/",
+  //   component: () => import("../layouts/SideBarLayout.vue"),
+  //   children: [
+  //     {
+  //       path: "/",
+  //       component: () => import("../views/Welcome/WelcomeView.vue"),
+  //     },
+  //     {
+  //       path: "/deliverydemo",
+  //       component: () => import("../views/Projects/DeliveryDemoView.vue"),
+  //     },
+  //     {
+  //       path: "/healthcaredemo",
+  //       component: () => import("../views/Projects/HealthCareDemoView.vue"),
+  //     },
+  //     {
+  //       path: "/retaildemo",
+  //       component: () => import("../views/Projects/RetailDemoView.vue"),
+  //     },
+  //     {
+  //       path: "/lotterydemo",
+  //       component: () => import("../views/Projects/LotteryDemoView.vue"),
+  //     },
+  //     {
+  //       path: "/musictaste",
+  //       component: () => import("../views/Hobbies/MusicView.vue"),
+  //     },
+  //     {
+  //       path: "/illustratorlife",
+  //       component: () => import("../views/Hobbies/IllustrationView.vue"),
+  //     }
+  //   ]
+  // },
   // {
   //   path: "/",
   //   component: () => import("../layouts/BlankLayout.vue"),

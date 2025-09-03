@@ -13,7 +13,6 @@ import HelloWorld from '@/components/HelloWorld.vue';
     </header>
 
     <main>
-      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
       <slot />
       <FooterView />
     </main>
@@ -31,13 +30,14 @@ import HelloWorld from '@/components/HelloWorld.vue';
     }
 
     header {
+        height: 100vh;
         flex-basis: 20%;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     main {
         flex-basis: 80%;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         padding: 20px;
     }
 </style>
